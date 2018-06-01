@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.miguelyeisonappgmail.rusia2018.Menu"
+    android:layout_gravity="center_horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/inicio"
+            style="@style/botones"
+            android:layout_width="75dp"
+            android:src="@drawable/inicio" />
+
+        <ImageButton
+            android:id="@+id/favorito"
+            style="@style/botones"
+            android:layout_width="75dp"
+            android:src="@drawable/favorito" />
+
+        <ImageButton
+            android:id="@+id/en_vivo"
+            style="@style/botones"
+            android:layout_width="75dp"
+            android:src="@drawable/en_vivo" />
+
+        <ImageButton
+            android:id="@+id/noticias"
+            style="@style/botones"
+            android:layout_width="75dp"
+            android:layout_height="60dp"
+            android:src="@drawable/noticias" />
+
+        <ImageButton
+            android:id="@+id/mas"
+            style="@style/botones"
+            android:layout_width="75dp"
+            android:src="@drawable/mas" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

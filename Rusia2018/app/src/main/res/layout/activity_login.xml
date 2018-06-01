@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.miguelyeisonappgmail.rusia2018.Login">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="380dp"
+        android:layout_x="189dp"
+
+        android:layout_y="365dp"
+        android:text="Iniciar sesión" />
+
+
+    <ImageView
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="1dp"
+        android:layout_x="49dp"
+        android:layout_y="2dp"
+        android:src="@drawable/logo" />
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/Googlebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="433dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="320dp"
+        android:layout_x="82dp"
+        android:layout_y="304dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="380dp"
+        android:layout_x="51dp"
+        android:layout_y="363dp"
+        android:text="Registrarse" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="260dp"
+        android:layout_x="81dp"
+        android:layout_y="242dp"
+        android:ems="10"
+        android:hint="Correo Electronico"
+        android:inputType="textEmailAddress" />
+
+
+
+
+</AbsoluteLayout>

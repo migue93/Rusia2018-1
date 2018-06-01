@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "363769932127",
+    "firebase_url": "https://rusia2018-c9345.firebaseio.com",
+    "project_id": "rusia2018-c9345",
+    "storage_bucket": "rusia2018-c9345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363769932127:android:a58c25c6bad8ed76",
+        "android_client_info": {
+          "package_name": "com.miguelyeisonappgmail.rusia2018"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363769932127-e241rpc1vc9rmsab3bdo4fjupirmqa37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miguelyeisonappgmail.rusia2018",
+            "certificate_hash": "65c08b9caae8aa1bc3ae09b91bc1e14bddf39268"
+          }
+        },
+        {
+          "client_id": "363769932127-ihu83inr1uo6nr214n9mj9n2hrgp9p0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdPkChHU9NZlQqj-xAWwWlnsNh1721-pY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363769932127-ihu83inr1uo6nr214n9mj9n2hrgp9p0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
